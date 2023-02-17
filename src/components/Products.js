@@ -5,7 +5,6 @@ const Products = (props) => {
   const { name, price, id } = props.product;
 
   const handleCart = (id) => {
-    console.log("working", id);
     addToLocalStorage(id);
   };
   return (
